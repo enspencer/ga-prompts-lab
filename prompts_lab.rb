@@ -11,8 +11,10 @@ end
 ###2.
 puts "What is the temperature?"
 temp_current = gets.chomp.to_i
+
 puts "Is the A/C functioning?"
 ac = gets.chomp
+
 puts "What temperature do you wish it was?"
 temp_wish = gets.chomp.to_i
 
@@ -30,13 +32,14 @@ end
 ###3.
 puts "What borough do you live in?"
 borough = gets.chomp
+
 if borough == "Manhattan"
 	puts "Ooh, swanky."
 elsif borough == "Brooklyn"
 		puts "You think you're too cool for school. But I've got a news flash for you Walter Cronkite, you aren't."
 elsif borough == "Queens"
 	puts "There's great food in Queens!"
-elsif borough == ("Bronx")
+elsif borough == "Bronx"
 	puts "Ah, so far north."
 elsif borough == "Staten Island"
 	puts "I'm sorry."
